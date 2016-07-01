@@ -12,6 +12,6 @@ The extensions engine is embedded directly to the system core, allowing extensio
 The entire documentation of SpaceGo available for users and developers at http://link_to_wiki.com
 
 * **Definitions**
-  * **User** – A person using a web powered by SpaceGo.
-  * **Developer** – A person using SpaceGo to develop projects or new extensions for SpaceGo.
-  * **Contributor** – A person contributing to the development of SpaceGo core in one way or another.
+  * **User** – A person using a web powered by SpaceGo
+  * **Developer** – A person using SpaceGo to develop projects or new extensions for SpaceGo
+  * **Contributor** – A person contributing to the development of SpaceGo core in one way or another
