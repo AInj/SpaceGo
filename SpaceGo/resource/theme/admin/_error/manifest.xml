@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<id>_error</id>
+	<name>Default Error Page</name>
+	<version>1.0</version>
+	<author>System</author>
+	<website>localhost</website>
+	<direction>ltr</direction>
+	<desc>This is the default theme provided by the system for error pages. It is called by the system debugger.</desc>
+</theme>

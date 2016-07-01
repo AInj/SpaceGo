@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<info>
+		<extends>test</extends>
+		<author>System and Co.</author>
+		<website>localhost</website>
+	</info>
+	<tst>
+		<![CDATA[
+			<b>{0}</b>
+		]]>
+	</tst>
+	<menuitem>
+		<![CDATA[
+			<a href="{1}" class="list-group-item {2}">{0}</a>
+		]]>
+	</menuitem>
+</theme>

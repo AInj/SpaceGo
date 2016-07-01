@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<id>test</id>
+	<name>Test Extension</name>
+	<version>1.0</version>
+	<desc>This is a testing and playground extension</desc>
+	<author>System and Co.</author>
+	<website>localhost</website>
+	<comp>1.0</comp>
+	<acp_menu>e_test_main,lang::ext_test_test,fa fa-heart,acc|module,langname,navfa,</acp_menu>
+</extension>

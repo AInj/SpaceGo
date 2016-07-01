@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<id>default</id>
+	<name>Default</name>
+	<version>1.0</version>
+	<author>System</author>
+	<website>localhost</website>
+	<direction>ltr</direction>
+	<desc>This is the default theme provided by the system. It is generally blank and empty and not meant to be used publicly.</desc>
+</theme>

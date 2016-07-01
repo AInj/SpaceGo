@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<id>cm</id>
+	<name>Content Management</name>
+	<version>1.0</version>
+	<desc>This extension provides content management.</desc>
+	<author>System and Co.</author>
+	<website>localhost</website>
+	<comp>1.0</comp>
+	<acp_perm>lang::acp_con,ext_cm</acp_perm>
+	<acp_menu>e_cm_con,lang::ext_cm_acp,fa fa-clipboard,ext_mnu</acp_menu>
+</extension>

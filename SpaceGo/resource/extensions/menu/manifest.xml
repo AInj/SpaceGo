@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<id>menu</id>
+	<name>Dynamic Menu</name>
+	<version>1.0</version>
+	<desc>This extension provides dynamic menu management.</desc>
+	<author>System and Co.</author>
+	<website>localhost</website>
+	<comp>1.0</comp>
+	<acp_perm>lang::ext_menu_acp,ext_mnu</acp_perm>
+	<acp_menu>e_menu_main,lang::ext_menu_acp,fa fa-list-ul,ext_mnu</acp_menu>
+</extension>

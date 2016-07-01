@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<id>admin</id>
+	<name>Default ACP</name>
+	<author>System</author>
+	<website>localhost</website>
+	<direction>flexible</direction>
+	<desc>This is the default theme provided by the system for Admin Control Panel. The entire ACP is embedded on this theme thus it takes more than usual efforts to modify it.</desc>
+</theme>

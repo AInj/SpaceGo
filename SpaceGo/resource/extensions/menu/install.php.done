@@ -1,0 +1,13 @@
+<?php
+    $depend = [];
+
+    $files = array(
+        ['admin_main.php', '75b4789919236859346a06d7138402566ff2501b'],
+        ['events.php', '9eeff2df5783e84cfe0e671c2aee70c45c0d6735'],
+        ['lang.xml', 'a6059370c8899bb73b9fa5aa08cce59af854ee7b'],
+        ['manifest.xml', '6ae8284f836305932e7f20883ccfb3e32cd13647'],
+        ['theme.xml', '07307834df33707c3b80f66a5cb5257a9d8b89d2']
+    );
+
+    $sql = 'install.sql';
+?>

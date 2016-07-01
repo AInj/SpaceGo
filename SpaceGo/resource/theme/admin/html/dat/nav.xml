@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dat>
+	<!-- var -->
+	<acp_m_default>fa fa-dashboard</acp_m_default>
+	<acp_m_logout>fa fa-power-off</acp_m_logout>
+	<acp_m_settings>fa fa-gear</acp_m_settings>
+	<acp_m_messages>fa fa-envelope</acp_m_messages>
+	<acp_m_accounts>fa fa-users</acp_m_accounts>
+	<acp_m_system>fa fa-bolt</acp_m_system>
+
+	<!-- pattern -->
+	<list_messages>
+		<![CDATA[
+                        <li class="message-preview">
+                            <a href="?messages&id={3}">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>{0}</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> {1}</p>
+                                        <p>{2}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+		]]>
+	</list_messages>
+
+	<nav_li>
+		<![CDATA[
+			<li class="{2}">
+				<i class="{0}"></i> {1}
+			</li>
+		]]>
+	</nav_li>
+
+	<nav_li_a>
+		<![CDATA[
+			<a href="{1}">{0}</a>
+		]]>
+	</nav_li_a>
+
+	<menu_li>
+		<![CDATA[
+			<li class="{3}">
+				<a href="?{2}"><i class="{1}"></i> {0}</a>
+			</li>
+		]]>
+	</menu_li>
+
+	<menu_li_c> <!-- Cancelled -->
+		<![CDATA[
+			<li>
+				<a href="javascript:;" data-toggle="collapse" data-target="#{0}"><i class="{2}"></i> {1} <i class="fa fa-fw fa-caret-down"></i></a>
+				<ul id="{0}" class="collapse"> 
+					<li>
+						<a href="#">Dropdown Item</a>
+					</li>
+					<li>
+						<a href="#">Dropdown Item</a>
+					</li>
+				</ul>
+			</li>
+		]]>
+	</menu_li_c>
+</dat>

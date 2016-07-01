@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<info>
+		<id>en-US</id>
+		<name>English (United States)</name>
+		<version>1.5</version>
+		<author>Family of the Year</author>
+		<website>youtube.com</website>
+		<comp>1.0</comp>
+		<encoding>UTF-8 without BOM</encoding>
+		<direction>rtl</direction>
+	</info>
+	<phrases>
+		<!-- Global -->
+		<glob_sysadm>System Admin</glob_sysadm>
+		<welcome>Welcome, {0}!</welcome>
+
+		<!-- acp -->
+		<acp>Admin Control Panel</acp>
+		<acp_error>Error</acp_error>
+		<acp_noaccess>You are not authorised to access this module.</acp_noaccess>
+		<acp_unavailcmd>The executed module command is unavailable.</acp_unavailcmd>
+		<acp_unable>Unable to complete this action due to the following error(s):</acp_unable>
+		<acp_xbyx>{0} by {1}</acp_xbyx>
+		<acp_viewall>View All</acp_viewall>
+
+		<!-- acp_auth -->
+		<acp_auth>Log in</acp_auth>
+		<acp_auth_username>Username</acp_auth_username>
+		<acp_auth_password>Password</acp_auth_password>
+
+		<!-- acp_m_default -->
+		<acp_m_default>Dashboard</acp_m_default>
+		<acp_m_default_welcome>Welcome to the Admin Control Panel. This area allows you to control over the website settings and content.
+		It is recommended that you take caution before performing any action. Your permissions may be limited as per system admin's discretion.</acp_m_default_welcome>
+
+		<!-- acp_m_logout -->
+		<acp_m_logout>Log out</acp_m_logout>
+		<acp_m_logout_msg>Logging out, you are being redirected...</acp_m_logout_msg>
+
+		<!-- acp_m_settings -->
+		<acp_m_settings>Settings</acp_m_settings>
+		<acp_m_settings_msg_invalidpwd>The provided current password is invalid. You are required to provide it before submitting any changes.</acp_m_settings_msg_invalidpwd>
+		<acp_m_settings_msg_invalidemail>The desired new email is invalid. An email address should be formatted as the following: email@domain.com</acp_m_settings_msg_invalidemail>
+		<acp_m_settings_msg_nopwdmatch>The desired new password does not match the confirmation one.</acp_m_settings_msg_nopwdmatch>
+		<acp_m_settings_msg_weakpwd>The desired new password is too weak. As per security settings, you are required to provide a stronger password.
+		It is recommended to combine both numbers and letters, and create a password at least 6 characters long.</acp_m_settings_msg_weakpwd>
+		<acp_m_settings_msg_success>Your account settings have been updated successfully.</acp_m_settings_msg_success>
+		<acp_m_settings_username>Username</acp_m_settings_username>
+		<acp_m_settings_email>Email</acp_m_settings_email>
+		<acp_m_settings_password>Password</acp_m_settings_password>
+		<acp_m_settings_password_help>Provide your current password.</acp_m_settings_password_help>
+		<acp_m_settings_password_change>Change password</acp_m_settings_password_change>
+		<acp_m_settings_password_confirm>Confirm password</acp_m_settings_password_confirm>
+		<acp_m_settings_submit>Submit changes</acp_m_settings_submit>
+		<acp_m_settings_info>Information</acp_m_settings_info>
+		<acp_m_settings_info_txt>This section allows you to modify your account settings. Remember to double-check provided details prior to changing your log in credentials.
+		
+		You are required to provide your current password before submitting.</acp_m_settings_info_txt>
+
+		<!-- acp_m_messages -->
+		<acp_m_messages>Messages</acp_m_messages>
+		<acp_m_messages_tview>View</acp_m_messages_tview>
+		<acp_m_messages_subject>Subject</acp_m_messages_subject>
+		<acp_m_messages_sender>Sender</acp_m_messages_sender>
+		<acp_m_messages_time>Time</acp_m_messages_time>
+		<acp_m_messages_content>Content</acp_m_messages_content>
+		<acp_m_messages_view>View message</acp_m_messages_view>
+		<acp_m_messages_back>Back</acp_m_messages_back>
+		<acp_m_messages_delete>Delete</acp_m_messages_delete>
+
+		<!-- acp_m_accounts -->
+		<acp_m_accounts>Accounts</acp_m_accounts>
+		<acp_m_accounts_id>ID</acp_m_accounts_id>
+		<acp_m_accounts_username>Username</acp_m_accounts_username>
+		<acp_m_accounts_password>Password</acp_m_accounts_password>
+		<acp_m_accounts_email>Email</acp_m_accounts_email>
+		<acp_m_accounts_lastact>Last activity</acp_m_accounts_lastact>
+		<acp_m_accounts_action_create>Create</acp_m_accounts_action_create>
+		<acp_m_accounts_action_modify>Modify</acp_m_accounts_action_modify>
+		<acp_m_accounts_action_delete>Delete</acp_m_accounts_action_delete>
+
+		<acp_m_accounts_create>Create a new account</acp_m_accounts_create>
+		<acp_m_accounts_create_help_password>Personal authentication code</acp_m_accounts_create_help_password>
+		<acp_m_accounts_create_submit>Create Account</acp_m_accounts_create_submit>
+		<acp_m_accounts_create_success>You have successfully created an account named `{0}` (#{1}). You are being redirected back to account listing...</acp_m_accounts_create_success>
+		<acp_m_accounts_create_msg_sub>Welcome to website system!</acp_m_accounts_create_msg_sub>
+		<acp_m_accounts_create_msg_con>Welcome to website system!
+		
+		Having access to this Admin Control Panel, you are given permissions allowing you to control over the website settings and content. Remember to take caution before performing any action on this control panel, for some permissions may have destructive powers.
+		
+		Best regards,
+		System Admin</acp_m_accounts_create_msg_con>
+
+		<acp_m_accounts_modify>Modify an account ({0})</acp_m_accounts_modify>
+		<acp_m_accounts_modify_help_password>Leave empty to keep current</acp_m_accounts_modify_help_password>
+		<acp_m_accounts_modify_submit>Apply changes</acp_m_accounts_modify_submit>
+		<acp_m_accounts_modify_success>You have successfully modified account `{0}`.</acp_m_accounts_modify_success>
+
+		<acp_m_accounts_help_username>Used for authentication</acp_m_accounts_help_username>
+		<acp_m_accounts_help_email>email@domain.com</acp_m_accounts_help_email>
+		<acp_m_accounts_pwdgen>Generate Random Password</acp_m_accounts_pwdgen>
+		<acp_m_accounts_perm>Permissions</acp_m_accounts_perm>
+		<acp_m_accounts_perm_wrn>Hold 'ctrl' or drag your cursor across to multi-select permissions.
+		Be cautious and avoid giving out unnecessary permissions to other users.</acp_m_accounts_perm_wrn>
+		<acp_m_accounts_perm_sa>Select All</acp_m_accounts_perm_sa>
+		<acp_m_accounts_perm_dsa>Deselect All</acp_m_accounts_perm_dsa>
+
+		<acp_m_accounts_err_nousr>No username was provided. It is mandatory to provide one as it's used for user authentication.</acp_m_accounts_err_nousr>
+		<acp_m_accounts_err_invalemail>The provided email address is invalid. An email address should be formatted as the following: email@domain.com</acp_m_accounts_err_invalemail>
+		<acp_m_accounts_err_nopwd>No password was provided. It is a mandatory key factor in user authentication.</acp_m_accounts_err_nopwd>
+		<acp_m_accounts_err_weakpwd>The provided password is too weak. As per security settings, you are required to provide a stronger password.
+		It is recommended to combine both numbers and letters, and create a password at least 6 characters long.</acp_m_accounts_err_weakpwd>
+		<acp_m_accounts_err_usrinuse>The provided username is already taken by another account.</acp_m_accounts_err_usrinuse>
+
+		<acp_m_accounts_delete>Delete an account ({0})</acp_m_accounts_delete>
+		<acp_m_accounts_delete_warning>You are about to permanently delete account `{0}` (#{1}).
+		Once done, you will not be able to recover this account or its data.</acp_m_accounts_delete_warning>
+		<acp_m_accounts_delete_submit>Delete Account</acp_m_accounts_delete_submit>
+		<acp_m_accounts_delete_cancel>Cancel</acp_m_accounts_delete_cancel>
+		<acp_m_accounts_delete_success>You have successfully deleted account `{0}` (#{1}). You are being redirected back to account listing...</acp_m_accounts_delete_success>
+
+		<!-- acp_m_system -->
+		<acp_m_system>System Admin</acp_m_system>
+		<acp_m_system_info>Information</acp_m_system_info>
+		<acp_m_system_info_txt>This section allows you to control over sensitive website settings. Accessing this area means you are given destructive powers, hence you are highly advised to be extremely cautious before performing any action here.</acp_m_system_info_txt>
+		<acp_m_system_sysinfo>System Information</acp_m_system_sysinfo>
+		<acp_m_system_sysinfo_env>Enviorment</acp_m_system_sysinfo_env>
+		<acp_m_system_sysinfo_ver>System Version</acp_m_system_sysinfo_ver>
+		<acp_m_system_sysinfo_ins>Installed</acp_m_system_sysinfo_ins>
+		<acp_m_system_sysinfo_theme>Theme</acp_m_system_sysinfo_theme>
+		<acp_m_system_sysinfo_lang>Language</acp_m_system_sysinfo_lang>
+		<acp_m_system_sysinfo_lastbk>Last backup</acp_m_system_sysinfo_lastbk>
+		<acp_m_system_nosections>You are not authorised to access any system admin section.</acp_m_system_nosections>
+
+		<acp_m_system_settings_webname>Website name</acp_m_system_settings_webname>
+		<acp_m_system_settings_metadesc>Meta Description</acp_m_system_settings_metadesc>
+		<acp_m_system_settings_metakeys>Meta Keywords</acp_m_system_settings_metakeys>
+		<acp_m_system_settings_metaauthor>Meta Author</acp_m_system_settings_metaauthor>
+		<acp_m_system_settings_timezone>Timezone</acp_m_system_settings_timezone>
+		<acp_m_system_settings_timezone_h>Supported timezones</acp_m_system_settings_timezone_h>
+		<acp_m_system_settings_timefs>Date format (short)</acp_m_system_settings_timefs>
+		<acp_m_system_settings_timefl>Date format (long)</acp_m_system_settings_timefl>
+		<acp_m_system_settings_timef_h>Supported formats</acp_m_system_settings_timef_h>
+		<acp_m_system_settings_info><![CDATA[This section modifies basic website settings. Note that meta data is only visible to search engines, timezones are linked to the provided list, and date formatting only works according to PHP syntax.
+
+		Except for meta, all fields are required to be filled to preserve functionality.
+
+		Refer to <a>system documentation</a> to learn more.]]></acp_m_system_settings_info>
+		<acp_m_system_settings_save>Save Settings</acp_m_system_settings_save>
+		<acp_m_system_settings_fail>Unable to save new settings as some of required fields were left empty.</acp_m_system_settings_fail>
+		<acp_m_system_settings_success>You have successfully saved new system settings.</acp_m_system_settings_success>
+
+		<acp_m_system_language_info>Information</acp_m_system_language_info>
+		<acp_m_system_language_info_txt>This section modifies the default language for your system. Any readable phrase you have seen so far has been withdrawn from a language package which contains all data and phrases for the language in question. Language packages are stored in XML files and can be manually modified, downloaded, and replaced. This section lists the available packages to be selected and used by your system. You are able to access the `language` folder in the home directory for manual modifications or uploads. Note that over time new features are added, and naturally new phrases are added to language packages, hence it's recommended to keep an eye on the package compatibility to ensure it suits your current system version. Extentions use seperate language packages.</acp_m_system_language_info_txt>
+
+		<acp_m_system_language_packid>Package ID</acp_m_system_language_packid>
+		<acp_m_system_language_packname>Package Name</acp_m_system_language_packname>
+		<acp_m_system_language_packver>Package Version</acp_m_system_language_packver>
+		<acp_m_system_language_packauth>Package Author</acp_m_system_language_packauth>
+		<acp_m_system_language_packweb>Package Website</acp_m_system_language_packweb>
+		<acp_m_system_language_packcomp>System Compatibility</acp_m_system_language_packcomp>
+		<acp_m_system_language_packenc>Encoding</acp_m_system_language_packenc>
+		<acp_m_system_language_packdir>Direction</acp_m_system_language_packdir>
+		<acp_m_system_language_packcount>Phrases Count</acp_m_system_language_packcount>
+		<acp_m_system_language_browser>Language Package Browser</acp_m_system_language_browser>
+		
+		<acp_m_system_language_select>Select Package</acp_m_system_language_select>
+		<acp_m_system_language_success>Language set to `{0}` successfully</acp_m_system_language_success>
+
+		<acp_m_system_sec>Security</acp_m_system_sec>
+
+		<acp_m_system_bks>Backups</acp_m_system_bks>
+	</phrases>
+</lang>

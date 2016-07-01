@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<info>
+		<extends>test</extends>
+		<author>System and Co.</author>
+		<website>localhost</website>
+	</info>
+	<phrases>
+		<hello>Hello world, {0}!</hello>
+		<test>Test</test>
+	</phrases>
+</lang>

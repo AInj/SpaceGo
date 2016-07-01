@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dat>
+	<!-- var -->
+
+	<!-- pattern -->
+	<rtl>
+		<![CDATA[
+			<link href="/{0}/resource/theme/{1}/css/bootstrap-rtl.min.css" rel="stylesheet">
+			<link href="/{0}/resource/theme/{1}/css/sb-admin-rtl.css" rel="stylesheet">
+		]]>
+	</rtl>
+
+	<alert>
+		<![CDATA[
+			<div class="alert alert-{0}">
+				{1}
+			</div>
+		]]>
+	</alert>
+
+	<form_field>
+		<![CDATA[
+			<label>{0}</label>
+			<input class="form-control" name="{1}" id="{1}" {2}>
+		]]>
+	</form_field>
+
+	<form_textarea>
+		<![CDATA[
+			<label>{0}</label>
+			<textarea class="form-control" name="{1}" id="{1}" {3}>{2}</textarea>
+		]]>
+	</form_textarea>
+
+	<form_field_help><![CDATA[<p class="help-block">{0}</p>]]></form_field_help>
+</dat>

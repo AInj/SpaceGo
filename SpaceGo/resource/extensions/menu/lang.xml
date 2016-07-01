@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<info>
+		<extends>menu</extends>
+		<author>System and Co.</author>
+		<website>localhost</website>
+	</info>
+	<phrases>
+		<acp>Menus</acp>
+		<acp_id>ID</acp_id>
+		<acp_name>Name</acp_name>
+
+		<acp_action_create>New menu</acp_action_create>
+		<acp_create_info><![CDATA[This section allows you to create and manage dynamic menus and containing items. The structure is designed to group items under menu names so your website can have several different menus (e.g main-menu and side-menu). Menus can also be used to provide other listings such as sitemap.
+		You are unlimited by the number of menus or menu items added to the system. Remember you're expected to modify your system theme to fit the standards of this extension for full functionality.
+		
+		Refer to <a>extension documentation</a> to learn more.]]></acp_create_info>
+		<acp_create_help>Is used to group your items and identify them.</acp_create_help>
+		<acp_create_err_noname>No menu name was provided. It is required for menu identification.</acp_create_err_noname>
+		<acp_create_err_taken>The provided menu name is already taken by another.</acp_create_err_taken>
+		<acp_create_success>You have created a new menu named `{0}` (#{1}). You are being redirected to modify page...</acp_create_success>
+		<acp_create>Save and Modify</acp_create>
+
+		<acp_action_modify>Modify menu</acp_action_modify>
+		<acp_modify_info>This section allows you to modify the items of your dynamic menus and rename them. The system sorts the menu listing in an ascending order according to the `sort` value on the table. The number range for sorting is limited to 11 digits, below and above zero (0), and is to be used as you wish.</acp_modify_info>
+		<acp_modify_help>Renaming will keep the current items.</acp_modify_help>
+		<acp_modify>Rename Menu</acp_modify>
+
+		<acp_modify_id>ID</acp_modify_id>
+		<acp_modify_menu>Menu</acp_modify_menu>
+		<acp_modify_item>Item</acp_modify_item>
+		<acp_modify_link>Link</acp_modify_link>
+		<acp_modify_sort>Sort</acp_modify_sort>
+		<acp_modify_action>Action</acp_modify_action>
+		<acp_modify_action_modify>Modify</acp_modify_action_modify>
+		<acp_modify_action_remove>Remove</acp_modify_action_remove>
+		<acp_modify_action_add>Add Item</acp_modify_action_add>
+
+		<acp_action_delete>Delete menu</acp_action_delete>
+		<acp_delete_warning>You are about to delete menu `{0}` (#{1}) and all of the items it contains.
+		This action is irrecoverable. Are you sure?</acp_delete_warning>
+		<acp_delete_submit>Delete Menu</acp_delete_submit>
+		<acp_delete_cancel>Cancel</acp_delete_cancel>
+		<acp_delete_success>You have successfully deleted menu `{0}` (#{1}). You are being redirected back to menu listing...</acp_delete_success>
+	</phrases>
+</lang>

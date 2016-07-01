@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<info>
+		<id>en-GB</id>
+		<name>English (Great Britain)</name>
+		<version>1.0</version>
+		<author>System and Co.</author>
+		<website>localhost</website>
+		<comp>1.0</comp>
+		<encoding>UTF-8</encoding>
+		<direction>ltr</direction>
+	</info>
+	<phrases>
+		<!-- Global -->
+		<glob_sysadm>System Admin</glob_sysadm>
+		<welcome>Welcome, {0}!</welcome>
+
+		<!-- acp -->
+		<acp>Admin Control Panel</acp>
+		<acp_error>Error</acp_error>
+		<acp_noaccess>You are not authorised to access this module.</acp_noaccess>
+		<acp_unavailcmd>The executed module command is unavailable.</acp_unavailcmd>
+		<acp_unable>Unable to complete this action due to the following error(s):</acp_unable>
+		<acp_xbyx>{0} by {1}</acp_xbyx>
+		<acp_viewall>View All</acp_viewall>
+
+		<!-- acp_auth -->
+		<acp_auth>Log in</acp_auth>
+		<acp_auth_username>Username</acp_auth_username>
+		<acp_auth_password>Password</acp_auth_password>
+
+		<!-- acp_m_default -->
+		<acp_m_default>Dashboard</acp_m_default>
+		<acp_m_default_welcome>Welcome to the Admin Control Panel. This area allows you to control over the website settings and content.
+		It is recommended that you take caution before performing any action. Your permissions may be limited as per system admin's discretion.</acp_m_default_welcome>
+
+		<!-- acp_m_logout -->
+		<acp_m_logout>Log out</acp_m_logout>
+		<acp_m_logout_msg>Logging out, you are being redirected...</acp_m_logout_msg>
+
+		<!-- acp_m_settings -->
+		<acp_m_settings>Settings</acp_m_settings>
+		<acp_m_settings_msg_invalidpwd>The provided current password is invalid. You are required to provide it before submitting any changes.</acp_m_settings_msg_invalidpwd>
+		<acp_m_settings_msg_invalidemail>The desired new email is invalid. An email address should be formatted as the following: email@domain.com</acp_m_settings_msg_invalidemail>
+		<acp_m_settings_msg_nopwdmatch>The desired new password does not match the confirmation one.</acp_m_settings_msg_nopwdmatch>
+		<acp_m_settings_msg_weakpwd>The desired new password is too weak. As per security settings, you are required to provide a stronger password.
+		It is recommended to combine both numbers and letters, and create a password at least 6 characters long.</acp_m_settings_msg_weakpwd>
+		<acp_m_settings_msg_success>Your account settings have been updated successfully.</acp_m_settings_msg_success>
+		<acp_m_settings_username>Username</acp_m_settings_username>
+		<acp_m_settings_email>Email</acp_m_settings_email>
+		<acp_m_settings_password>Password</acp_m_settings_password>
+		<acp_m_settings_password_help>Provide your current password.</acp_m_settings_password_help>
+		<acp_m_settings_password_change>Change password</acp_m_settings_password_change>
+		<acp_m_settings_password_confirm>Confirm password</acp_m_settings_password_confirm>
+		<acp_m_settings_submit>Submit changes</acp_m_settings_submit>
+		<acp_m_settings_info>Information</acp_m_settings_info>
+		<acp_m_settings_info_txt>This section allows you to modify your account settings. Remember to double-check provided details prior to changing your log in credentials.
+
+		You are required to provide your current password before submitting.</acp_m_settings_info_txt>
+
+		<!-- acp_m_messages -->
+		<acp_m_messages>Messages</acp_m_messages>
+		<acp_m_messages_tview>View</acp_m_messages_tview>
+		<acp_m_messages_subject>Subject</acp_m_messages_subject>
+		<acp_m_messages_sender>Sender</acp_m_messages_sender>
+		<acp_m_messages_time>Time</acp_m_messages_time>
+		<acp_m_messages_content>Content</acp_m_messages_content>
+		<acp_m_messages_view>View message</acp_m_messages_view>
+		<acp_m_messages_back>Back</acp_m_messages_back>
+		<acp_m_messages_delete>Delete</acp_m_messages_delete>
+
+		<!-- acp_m_accounts -->
+		<acp_m_accounts>Accounts</acp_m_accounts>
+		<acp_m_accounts_id>ID</acp_m_accounts_id>
+		<acp_m_accounts_username>Username</acp_m_accounts_username>
+		<acp_m_accounts_password>Password</acp_m_accounts_password>
+		<acp_m_accounts_email>Email</acp_m_accounts_email>
+		<acp_m_accounts_lastact>Last activity</acp_m_accounts_lastact>
+		<acp_m_accounts_action_create>Create</acp_m_accounts_action_create>
+		<acp_m_accounts_action_modify>Modify</acp_m_accounts_action_modify>
+		<acp_m_accounts_action_delete>Delete</acp_m_accounts_action_delete>
+
+		<acp_m_accounts_create>Create a new account</acp_m_accounts_create>
+		<acp_m_accounts_create_help_password>Personal authentication code</acp_m_accounts_create_help_password>
+		<acp_m_accounts_create_submit>Create Account</acp_m_accounts_create_submit>
+		<acp_m_accounts_create_success>You have successfully created an account named `{0}` (#{1}). You are being redirected back to account listing...</acp_m_accounts_create_success>
+		<acp_m_accounts_create_msg_sub>Welcome to website system!</acp_m_accounts_create_msg_sub>
+		<acp_m_accounts_create_msg_con>Welcome to website system!
+
+		Having access to this Admin Control Panel, you are given permissions allowing you to control over the website settings and content. Remember to take caution before performing any action on this control panel, for some permissions may have destructive powers.
+
+		Best regards,
+		System Admin</acp_m_accounts_create_msg_con>
+
+		<acp_m_accounts_modify>Modify an account</acp_m_accounts_modify>
+		<acp_m_accounts_modify_help_password>Leave empty to keep current</acp_m_accounts_modify_help_password>
+		<acp_m_accounts_modify_submit>Apply changes</acp_m_accounts_modify_submit>
+		<acp_m_accounts_modify_success>You have successfully modified account `{0}`.</acp_m_accounts_modify_success>
+
+		<acp_m_accounts_help_username>Used for authentication</acp_m_accounts_help_username>
+		<acp_m_accounts_help_email>email@domain.com</acp_m_accounts_help_email>
+		<acp_m_accounts_pwdgen>Generate Random Password</acp_m_accounts_pwdgen>
+		<acp_m_accounts_perm>Permissions</acp_m_accounts_perm>
+		<acp_m_accounts_perm_wrn>Hold 'ctrl' or drag your cursor across to multi-select permissions.
+		Be cautious and avoid giving out unnecessary permissions to other users.</acp_m_accounts_perm_wrn>
+		<acp_m_accounts_perm_sa>Select All</acp_m_accounts_perm_sa>
+		<acp_m_accounts_perm_dsa>Deselect All</acp_m_accounts_perm_dsa>
+
+		<acp_m_accounts_err_nousr>No username was provided. It is mandatory to provide one as it's used for user authentication.</acp_m_accounts_err_nousr>
+		<acp_m_accounts_err_invalemail>The provided email address is invalid. An email address should be formatted as the following: email@domain.com</acp_m_accounts_err_invalemail>
+		<acp_m_accounts_err_nopwd>No password was provided. It is a mandatory key factor in user authentication.</acp_m_accounts_err_nopwd>
+		<acp_m_accounts_err_weakpwd>The provided password is too weak. As per security settings, you are required to provide a stronger password.
+		It is recommended to combine both numbers and letters, and create a password at least 6 characters long.</acp_m_accounts_err_weakpwd>
+		<acp_m_accounts_err_usrinuse>The provided username is already taken by another account.</acp_m_accounts_err_usrinuse>
+
+		<acp_m_accounts_delete>Delete an account</acp_m_accounts_delete>
+		<acp_m_accounts_delete_warning>You are about to permanently delete account `{0}` (#{1}).
+		Once done, you will not be able to recover this account or its data.</acp_m_accounts_delete_warning>
+		<acp_m_accounts_delete_submit>Delete Account</acp_m_accounts_delete_submit>
+		<acp_m_accounts_delete_cancel>Cancel</acp_m_accounts_delete_cancel>
+		<acp_m_accounts_delete_success>You have successfully deleted account `{0}` (#{1}). You are being redirected back to account listing...</acp_m_accounts_delete_success>
+
+		<!-- acp_m_system -->
+		<acp_m_system>System</acp_m_system>
+		<acp_m_system_info>Information</acp_m_system_info>
+		<acp_m_system_info_txt>This section allows you to control over sensitive website settings. Accessing this area means you are given destructive powers, hence you are highly advised to be extremely cautious before performing any action here.</acp_m_system_info_txt>
+		<acp_m_system_note>Notification</acp_m_system_note>
+		<acp_m_system_sysinfo>System Information</acp_m_system_sysinfo>
+		<acp_m_system_sysinfo_env>Enviorment</acp_m_system_sysinfo_env>
+		<acp_m_system_sysinfo_ver>System Version</acp_m_system_sysinfo_ver>
+		<acp_m_system_sysinfo_ins>Installed</acp_m_system_sysinfo_ins>
+		<acp_m_system_sysinfo_theme>Theme</acp_m_system_sysinfo_theme>
+		<acp_m_system_sysinfo_lang>Language</acp_m_system_sysinfo_lang>
+		<acp_m_system_sysinfo_lastbk>Last backup</acp_m_system_sysinfo_lastbk>
+		<acp_m_system_nosections>You are not authorised to access any system admin section.</acp_m_system_nosections>
+
+		<acp_m_system_settings_webname>Website name</acp_m_system_settings_webname>
+		<acp_m_system_settings_metadesc>Meta Description</acp_m_system_settings_metadesc>
+		<acp_m_system_settings_metakeys>Meta Keywords</acp_m_system_settings_metakeys>
+		<acp_m_system_settings_metaauthor>Meta Author</acp_m_system_settings_metaauthor>
+		<acp_m_system_settings_timezone>Timezone</acp_m_system_settings_timezone>
+		<acp_m_system_settings_timezone_h>Supported timezones</acp_m_system_settings_timezone_h>
+		<acp_m_system_settings_timefs>Date format (short)</acp_m_system_settings_timefs>
+		<acp_m_system_settings_timefl>Date format (long)</acp_m_system_settings_timefl>
+		<acp_m_system_settings_timef_h>Supported formats</acp_m_system_settings_timef_h>
+		<acp_m_system_settings_info><![CDATA[This section modifies basic website settings. Note that meta data is only visible to search engines, timezones are linked to the provided list, and date formatting only works according to PHP syntax.
+
+		Except for meta, all fields are required to be filled to preserve functionality.
+
+		Refer to <a>system documentation</a> to learn more.]]></acp_m_system_settings_info>
+		<acp_m_system_settings_save>Save Settings</acp_m_system_settings_save>
+		<acp_m_system_settings_fail>Unable to save new settings as some of required fields were left empty.</acp_m_system_settings_fail>
+		<acp_m_system_settings_success>You have successfully saved your system settings.</acp_m_system_settings_success>
+
+		<acp_m_system_theme_info>Themes are the hook that connects the user with the logic behind the scenes. Any visual figure displayed in your web is designed by a standard template set by the currently active theme. This section allows you to apply themes.</acp_m_system_theme_info>
+
+		<acp_m_system_theme_thid>Theme ID</acp_m_system_theme_thid>
+		<acp_m_system_theme_thname>Theme Name</acp_m_system_theme_thname>
+		<acp_m_system_theme_thauth>Theme Author</acp_m_system_theme_thauth>
+		<acp_m_system_theme_thweb>Theme Website</acp_m_system_theme_thweb>
+		<acp_m_system_theme_thdesc>Theme Description</acp_m_system_theme_thdesc>
+		<acp_m_system_theme_browser>Theme Browser</acp_m_system_theme_browser>
+
+		<acp_m_system_theme_apply>Apply Theme</acp_m_system_theme_apply>
+		<acp_m_system_theme_modify>Modify Theme</acp_m_system_theme_modify>
+		<acp_m_system_theme_success>You have successfully set the default system theme to `{0}`.</acp_m_system_theme_success>
+
+		<acp_m_system_language_info>This section modifies the default language for your system. Any readable phrase you have seen so far has been withdrawn from a language package which contains all data and phrases for the language in question. Language packages are stored in XML files and can be manually modified, downloaded, and replaced. This section lists the available packages to be selected and used by your system. You are able to access the `language` directory in the home directory for manual modifications or uploads. Note that over time new features are added, and naturally new phrases are added to language packages, hence it's recommended to keep an eye on the package compatibility to ensure it suits your current system version. Extentions use seperate language packages.</acp_m_system_language_info>
+
+		<acp_m_system_language_packid>Package ID</acp_m_system_language_packid>
+		<acp_m_system_language_packname>Package Name</acp_m_system_language_packname>
+		<acp_m_system_language_packver>Package Version</acp_m_system_language_packver>
+		<acp_m_system_language_packauth>Package Author</acp_m_system_language_packauth>
+		<acp_m_system_language_packweb>Package Website</acp_m_system_language_packweb>
+		<acp_m_system_language_packcomp>System Compatibility</acp_m_system_language_packcomp>
+		<acp_m_system_language_packenc>Encoding</acp_m_system_language_packenc>
+		<acp_m_system_language_packdir>Direction</acp_m_system_language_packdir>
+		<acp_m_system_language_packcount>Phrases Count</acp_m_system_language_packcount>
+		<acp_m_system_language_browser>Language Package Browser</acp_m_system_language_browser>
+
+		<acp_m_system_language_select>Select Package</acp_m_system_language_select>
+		<acp_m_system_language_success>You have successfully set the default system language to `{0}`.</acp_m_system_language_success>
+
+		<acp_m_system_security_info><![CDATA[This section modifies system security settings. It is recommended to stick to default settings or set higher values instead of lowering them.
+
+		Anything concerning password hashing is predefined by the system's version and build and cannot be manually configured.
+
+		<center>[ <a href="?system&cmd=security&list=ban">Ban List</a> | <a href="?system&cmd=security&list=admacl">Admin ACL</a> ]</center>]]></acp_m_system_security_info>
+		<acp_m_system_security_pwdhashalgo>Password Hash Algorithm</acp_m_system_security_pwdhashalgo>
+		<acp_m_system_security_pwdhashcost>Password Hash Cost</acp_m_system_security_pwdhashcost>
+		<acp_m_system_security_pwdstandard>Password Standard</acp_m_system_security_pwdstandard>
+		<acp_m_system_security_pwdstandard_h>Minimum password length</acp_m_system_security_pwdstandard_h>
+		<acp_m_system_security_authatts>Failed Authentications</acp_m_system_security_authatts>
+		<acp_m_system_security_authatts_h>Given attempts before banning</acp_m_system_security_authatts_h>
+		<acp_m_system_security_authbanl>Ban length for Failed Auth</acp_m_system_security_authbanl>
+		<acp_m_system_security_authbanl_h>In seconds, type in '-1' to disable</acp_m_system_security_authbanl_h>
+		<acp_m_system_security_success>You have successfully saved your system security settings.</acp_m_system_security_success>
+
+		<acp_m_system_security_ban_info>This list contains all active bans from your system. Bans are automatically given by the system if necessary to prevent users from performing certain actions. Expired bans are removed automatically when the previously-banned user in-question attempts to perform the action they were banned from earlier.</acp_m_system_security_ban_info>
+		<acp_m_system_security_ban_type>Type</acp_m_system_security_ban_type>
+		<acp_m_system_security_ban_ip>IP</acp_m_system_security_ban_ip>
+		<acp_m_system_security_ban_time>Time</acp_m_system_security_ban_time>
+		<acp_m_system_security_ban_expiry>Expiry</acp_m_system_security_ban_expiry>
+		<acp_m_system_security_ban_reason>Reason</acp_m_system_security_ban_reason>
+		<acp_m_system_security_ban_action>Action</acp_m_system_security_ban_action>
+		<acp_m_system_security_ban_action_remove>Remove</acp_m_system_security_ban_action_remove>
+
+		<acp_m_system_security_admacl_info>The Admin ACL (Access-Control-List), when enabled, restricts all access to the Admin Control Panel to users listed on it only. Users are identifiable by either a hostname (e.g NO-IP) or an IPv4 address.
+
+		Be cautious enabling this feature to avoid being locked out of the Admin CP.</acp_m_system_security_admacl_info>
+		<acp_m_system_security_admacl_host>Host</acp_m_system_security_admacl_host>
+		<acp_m_system_security_admacl_comment>Comment</acp_m_system_security_admacl_comment>
+		<acp_m_system_security_admacl_action>Action</acp_m_system_security_admacl_action>
+		<acp_m_system_security_admacl_action_remove>Remove</acp_m_system_security_admacl_action_remove>
+		<acp_m_system_security_admacl_action_add>Add entry</acp_m_system_security_admacl_action_add>
+		<acp_m_system_security_admacl_added>You have added `{0}` (`{1}`) to Admin ACL.</acp_m_system_security_admacl_added>
+		<acp_m_system_security_admacl_toggle>Toggle Admin ACL status - Currently {0}</acp_m_system_security_admacl_toggle>
+		<acp_m_system_security_admacl_toggled>You have toggled Admin ACL status to {0}.</acp_m_system_security_admacl_toggled>
+		<acp_m_system_security_admacl_on>Enabled</acp_m_system_security_admacl_on>
+		<acp_m_system_security_admacl_off>Disabled</acp_m_system_security_admacl_off>
+
+		<acp_m_system_logs_lvl1>File-based logging (level 1)</acp_m_system_logs_lvl1>
+		<acp_m_system_logs_lvl1_info>File-based logging, or level-1-depth logs are considered hardcopies of crucial system reports such as runtime errors or warnings originating from system core, engines (language/theme), or extensions. These logs are stored upon downloadable, plain-text based files on your server.</acp_m_system_logs_lvl1_info>
+		<acp_m_system_logs_lvl2>Database-based logging (level 2)</acp_m_system_logs_lvl2>
+		<acp_m_system_logs_lvl2_info>Database-based logging, or level-2-depth logs contain entries from various areas of your system concerning routine functionality such as admin actions and security reports. These logs are stored upon the common database server used by the system and may be viewed in this section.</acp_m_system_logs_lvl2_info>
+		<acp_m_system_logs_view>View Selected</acp_m_system_logs_view>
+		<acp_m_system_logs_path>Manual access: /{0}/</acp_m_system_logs_path>
+		<acp_m_system_logs_viewing>Viewing `{0}`</acp_m_system_logs_viewing>
+		<acp_m_system_logs_back>Back to Logs</acp_m_system_logs_back>
+		<acp_m_system_logs_search>Search</acp_m_system_logs_search>
+		<acp_m_system_logs_search_ph>Filter results or leave blank to view all</acp_m_system_logs_search_ph>
+		<acp_m_system_logs_searchfilter>Search Filter</acp_m_system_logs_searchfilter>
+		<acp_m_system_logs_sf_log>Log</acp_m_system_logs_sf_log>
+		<acp_m_system_logs_sf_target>Target</acp_m_system_logs_sf_target>
+		<acp_m_system_logs_sf_target_ph>Filter by username or leave blank for all</acp_m_system_logs_sf_target_ph>
+		<acp_m_system_logs_sf_sort>Sort</acp_m_system_logs_sf_sort>
+		<acp_m_system_logs_sf_sort_no>Newest to Oldest</acp_m_system_logs_sf_sort_no>
+		<acp_m_system_logs_sf_sort_on>Oldest to Newest</acp_m_system_logs_sf_sort_on>
+		<acp_m_system_logs_sf_limit>Limit results</acp_m_system_logs_sf_limit>
+		<acp_m_system_logs_sf_limit_ph>Number of results to fetch (default: 30)</acp_m_system_logs_sf_limit_ph>
+		<acp_m_system_logs_sf_refresh>Refresh</acp_m_system_logs_sf_refresh>
+		<acp_m_system_logs_sr_id>ID</acp_m_system_logs_sr_id>
+		<acp_m_system_logs_sr_time>Time</acp_m_system_logs_sr_time>
+		<acp_m_system_logs_sr_entry>Entry</acp_m_system_logs_sr_entry>
+		<acp_m_system_logs_sr_by>By</acp_m_system_logs_sr_by>
+
+		<acp_m_system_backups_file>File Backup</acp_m_system_backups_file>
+		<acp_m_system_backups_file_info>File Backups contain either selective or all directories and/or files used by the system. Normally, system files remain untouched unless modified manually or by a third party such as a system update or an extension, thus file backups are mostly suitable for such occasions.</acp_m_system_backups_file_info>
+		<acp_m_system_backups_db>Database Backup</acp_m_system_backups_db>
+		<acp_m_system_backups_db_info>All of the dynamic information (settings, accounts and extension data) used by the system is stored in a database. Depending on the frequency of information updates in your workspace, it is recommended to keep frequent backups should a situation requiring it arise.</acp_m_system_backups_db_info>
+
+		<acp_m_system_backups_create>Create Backup</acp_m_system_backups_create>
+		<acp_m_system_backups_create_h>Creation process may take a while.
+			Backups are stored at: /{0}/</acp_m_system_backups_create_h>
+		<acp_m_system_backups_create_type>Backup Type</acp_m_system_backups_create_type>
+		<acp_m_system_backups_create_flag>Backup Flag</acp_m_system_backups_create_flag>
+		<acp_m_system_backups_create_flag_h>6-character-long file identifier</acp_m_system_backups_create_flag_h>
+		<acp_m_system_backups_create_notes>Backup Notes</acp_m_system_backups_create_notes>
+		<acp_m_system_backups_create_notes_h>Backup summary or description</acp_m_system_backups_create_notes_h>
+		<acp_m_system_backups_create_creator>Backup Creator</acp_m_system_backups_create_creator>
+		<acp_m_system_backups_create_skip>Skip specifics</acp_m_system_backups_create_skip>
+		<acp_m_system_backups_create_skip_ph>Seperated by commas (file1,file2)</acp_m_system_backups_create_skip_ph>
+		<acp_m_system_backups_create_skip_h>Exclude files/directories from backup</acp_m_system_backups_create_skip_h>
+		<acp_m_system_backups_create_opt>Optional</acp_m_system_backups_create_opt>
+		<acp_m_system_backups_proc>Backup In Progress</acp_m_system_backups_proc>
+		<acp_m_system_backups_proc_info>Welcome to the backup creation process panel. This section will provide you with real-time information about the process, and pose as its command centre.
+			This means that process commands are executed from this page, thus you are required to keep it page open at all times throughout the entire backup process.</acp_m_system_backups_proc_info>
+		<acp_m_system_backups_proc_err><![CDATA[The backup process had to abort due to an error. <a href="?system&cmd=backups">Return</a>.]]></acp_m_system_backups_proc_err>
+		<acp_m_system_backups_proc_done><![CDATA[The backup has been created successfully. <a href="?system&cmd=backups">Continue</a>.]]></acp_m_system_backups_proc_done>
+
+		<acp_m_system_backups_restore>Restore Backup</acp_m_system_backups_restore>
+		<acp_m_system_backups_restore_info><![CDATA[Backup restoration takes your entire system back to the point when the backup was created. Any data or entries submitted after the time of the initial backup will be lost permanently.
+
+			<b>You are to be extremely cautious executing this command.</b>]]></acp_m_system_backups_restore_info>
+		<acp_m_system_backups_restore_success>You have successfully restored backup `{0}`.</acp_m_system_backups_restore_success>
+
+		<acp_m_system_backups_delete>Delete Backup</acp_m_system_backups_delete>
+		<acp_m_system_backups_delete_warning>You are about to delete backup `{0}`.
+			This action cannot be undone once executed.</acp_m_system_backups_delete_warning>
+		<acp_m_system_backups_delete_cancel>Cancel</acp_m_system_backups_delete_cancel>
+
+		<acp_m_system_updates_info>Updates are patches that include additions and modifications to the system, ranging between new features to bug/security fixes. It is highly advised to always remain up-to-date with the latest version released.</acp_m_system_updates_info>
+		<acp_m_system_updates_updated>Your system is currently up-to-date. Version: {0} (build {1})</acp_m_system_updates_updated>
+		<acp_m_system_updates_notupdated>Your system is not up-to-date. New version is available: {0} (build {1})</acp_m_system_updates_notupdated>
+		<acp_m_system_updates_current><![CDATA[Your current version is <b>{0}</b> (build {1})]]></acp_m_system_updates_current>
+		<acp_m_system_updates_note>Notice</acp_m_system_updates_note>
+		<acp_m_system_updates_note_updated><![CDATA[Your system is up-to-date. The <a>changelog</a> is available for reading online.]]></acp_m_system_updates_note_updated>
+		<acp_m_system_updates_note_avail><![CDATA[The latest available version is <b>{0}</b> (build {1})
+
+		To install this system update, upload the <a href="{2}">latest build package</a> to the home directory and return to this page to launch the process.]]></acp_m_system_updates_note_avail>
+		<acp_m_system_updates_note_detected><![CDATA[Build package for version <b>{0}</b> (build {1}) has been detected on `<i>{2}</i>`.]]></acp_m_system_updates_note_detected>
+		<acp_m_system_updates_note_damaged>
+
+		There seems to be a package mismatch with the official release. It has either been downloaded incorrectly or modified manually, thus the updating process cannot be initiated until this issue is resolved.</acp_m_system_updates_note_damaged>
+		<acp_m_system_updates_note_ready><![CDATA[
+
+		The uploaded package seems readable and valid. Ready to <a href="?system&cmd=updates&update">start update</a>.]]></acp_m_system_updates_note_ready>
+		<acp_m_system_updates_proc>Update In Progress</acp_m_system_updates_proc>
+		<acp_m_system_updates_proc_info>Welcome to the system updating process panel. This section will provide you with real-time information about the process, and pose as its command centre.
+			This means that process commands are executed from this page, thus you are required to keep it page open at all times throughout the entire updating process.</acp_m_system_updates_proc_info>
+		<acp_m_system_updates_proc_err><![CDATA[The updating process had to abort due to an error. <a href="?system&cmd=updates">Return</a>.]]></acp_m_system_updates_proc_err>
+		<acp_m_system_updates_proc_done><![CDATA[The system has been updated successfully. <a href="?system&cmd=updates">Continue</a>.]]></acp_m_system_updates_proc_done>
+
+		<acp_m_system_ext_legend>Legend</acp_m_system_ext_legend>
+		<acp_m_system_ext_legend_info><![CDATA[<font color="#DFF0D8"><b>■</b></font> Activated
+		<font color="#FCF8E3"><b>■</b></font> Loading Error
+		<font color="#F2DEDE"><b>■</b></font> Deactivated
+		]]>
+		</acp_m_system_ext_legend_info>
+		<acp_m_system_ext_info><![CDATA[Extensions are external systems and/or engines plugged in to your system for the addition of extra features that were not included in the initial release. They are external scripts embedded to your system that may origin from the official development team or third party contributors of the community. Due to security reasons, it's advised to install extensions from known/trusted sources only.
+		Refer to <a>system documentation</a> to learn more about installing, modifying and handling extensions.]]></acp_m_system_ext_info>
+		<acp_m_system_ext>Extension</acp_m_system_ext>
+		<acp_m_system_ext_version>Version</acp_m_system_ext_version>
+		<acp_m_system_ext_author>Author</acp_m_system_ext_author>
+		<acp_m_system_ext_manage>Manage</acp_m_system_ext_manage>
+
+		<acp_m_system_ext_mng_err>Due to an internal error within this extension (missing files or outdated version), it could have not been loaded by the system.</acp_m_system_ext_mng_err>
+		<acp_m_system_ext_mng_ins>This extension is not installed.</acp_m_system_ext_mng_ins>
+		<acp_m_system_ext_mng_id>Extention ID</acp_m_system_ext_mng_id>
+		<acp_m_system_ext_mng_name>Extention Name</acp_m_system_ext_mng_name>
+		<acp_m_system_ext_mng_ver>Extention Version</acp_m_system_ext_mng_ver>
+		<acp_m_system_ext_mng_auth>Extention Author</acp_m_system_ext_mng_auth>
+		<acp_m_system_ext_mng_web>Extention Website</acp_m_system_ext_mng_web>
+		<acp_m_system_ext_mng_comp>System Compatibility</acp_m_system_ext_mng_comp>
+		<acp_m_system_ext_mng_desc>Extention Description</acp_m_system_ext_mng_desc>
+
+		<acp_m_system_ext_mng>Extention Management</acp_m_system_ext_mng>
+		<acp_m_system_ext_mng_info>You are able to enable/disable this extention at your own discretion. Note that doing so may affect the functionality of your system.</acp_m_system_ext_mng_info>
+		<acp_m_system_ext_ins_info>Upon installing this extension, you will be able to (de)activate it. The process validates extension package files and may execute SQL queries affecting your database. Be cautious of malicious extensions and prefer trusted sources at all times.</acp_m_system_ext_ins_info>
+		<acp_m_system_ext_on>Activate Extention</acp_m_system_ext_on>
+		<acp_m_system_ext_off>Deactivate Extention</acp_m_system_ext_off>
+		<acp_m_system_ext_ins>Install Extention</acp_m_system_ext_ins>
+		<acp_m_system_ext_ins_err_deps>This extension relies on other extensions that needs to be installed beforehand ({0}).</acp_m_system_ext_ins_err_deps>
+		<acp_m_system_ext_ins_err_files>Missing or damaged files were detected on the extension package ({0}).</acp_m_system_ext_ins_err_files>
+		<acp_m_system_ext_ins_err_sql>Unable to execute SQL file ({0}), result: {1}</acp_m_system_ext_ins_err_sql>
+		<acp_m_system_ext_ins_success>You have successfully installed extension `{0}` ({1}).
+		Extensions are deactivated by default upon installation, you may activate it manually.</acp_m_system_ext_ins_success>
+	</phrases>
+</lang>

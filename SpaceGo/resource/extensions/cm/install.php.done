@@ -1,0 +1,9 @@
+<?php
+    $depend = [];
+
+    $files = array(
+
+    );
+
+    $sql = 'install.sql';
+?>
