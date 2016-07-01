@@ -1,5 +1,5 @@
 # SpaceGo
-SpaceGo is an open-source modular CMS with a hybrid framework powered by PHP released under MIT License to offer developers the foundations of new web projects. SpaceGo is comprised of necessary tools for a web project development but does not aim to become another CMS or compete the ones out there, coming with a different approach and ideology.
+SpaceGo is an open-source modular CMS with a hybrid framework powered by PHP & released under MIT License to offer developers the foundations of new web projects. SpaceGo is comprised of necessary tools for a web project development but does not aim to become another CMS or compete the ones out there, coming with a different approach and ideology.
 
 SpaceGo is given to developers as a dynamic, flexible system with a set of tools and libraries to modify and expand it in accordance to their own needs. While SpaceGo provides libraries for language and theme processing, it is also backed by GUI-based Admin Control Panel which is integrated with the entire system core and controls all features.
 
@@ -15,6 +15,3 @@ The entire documentation of SpaceGo available for users and developers at http:/
   * **User** – A person using a web powered by SpaceGo.
   * **Developer** – A person using SpaceGo to develop projects or new extensions for SpaceGo.
   * **Contributor** – A person contributing to the development of SpaceGo core in one way or another.
-
-# Contribute to SpaceGo
-SpaceGo is currently at a closed-developmet despite it can be forked and used freely.
