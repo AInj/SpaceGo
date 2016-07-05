@@ -1,5 +1,15 @@
 <?php
 	/*
+	*
+	* This file is part of SpaceGo <https://github.com/AInj/SpaceGo>
+	*
+	* Copyright (c) 2016
+	* Released under The MIT License (MIT)
+	* Refer to LICENSE file for full copyright and license information
+	*
+	*/
+
+	/*
 		TODO: Consider the addition of statements (if-else) for themes
 				and consider integrating a full functional theme engine
 			http://www.smarty.net/
