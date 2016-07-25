@@ -15,6 +15,7 @@
 		public $lang_path = null;
 		public $lang_info = array();
 		public $lang_phr = array();
+		private $lang_prefix = '';
 
 		function __construct($lang)
 		{
@@ -45,14 +46,19 @@
 			$this->lang_phr = array_slice(get_object_vars($xml->phrases), 1);
 		}
 
+		public function setPrefix($prefix)
+		{
+			return $this->lang_prefix = $prefix;
+		}
+
 		public function get()
 		{
 			if(!isset($this->lang) || !$args = func_get_args()) return;
-			if(!isset($this->lang_phr[$args[0]])) return;
+			if(!isset($this->lang_phr[$langKey = $this->lang_prefix . $args[0]])) return;
 			$bindings = array_slice($args, 1);
 			$keys = array_keys($bindings);
 			for($i = 0; $i < sizeof($keys); $i++) $keys[$i] = '{'.$i.'}';
-			return nl2br(str_replace($keys, $bindings, $this->lang_phr[$args[0]]));
+			return nl2br(str_replace($keys, $bindings, $this->lang_phr[$langKey]));
 		}
 
 		public function parse($string)
