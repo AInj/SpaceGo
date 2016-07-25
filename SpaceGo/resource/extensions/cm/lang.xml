@@ -10,6 +10,13 @@
 		<acp_con>Content Editor</acp_con>
 		<acp_cfg>Content Config</acp_cfg>
 
+		<acp_info>Information</acp_info>
+		<acp_info_text>The Content Management extension enables dynamic page management across your website. Pages created in this section will be visible to anyone in accordance to predefined visibility settings. Page labels are considered categories, allowing you to sort and organise your pages easily.</acp_info_text>
+
+		<acp_filter>Filter</acp_filter>
+		<acp_label>By label</acp_label>
+		<acp_refresh>Refresh</acp_refresh>
+
 		<acp_id>ID</acp_id>
 		<acp_name>Name</acp_name>
 
