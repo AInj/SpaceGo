@@ -3,6 +3,9 @@ SpaceGo is an open-source modular CMS with a hybrid framework powered by PHP & r
 
 SpaceGo is given to developers as a dynamic, flexible system with a set of tools and libraries to modify and expand it in accordance to their own needs. While SpaceGo provides libraries for language and theme processing, it is also backed by GUI-based Admin Control Panel which is integrated with the entire system core and controls all features.
 
+## NOTICE: Not released yet!
+Having started this project a while back and not completing it fully yet for a first functional release, I am mostly using this repo to organise things.
+
 ## Extensions
 The heart of SpaceGo is extensions (or plugins) designated to extend the abilities of the system and add new features. While the initial release of SpaceGo includes a couple of basic extensions with standard features, additional extensions can be developed easily and distributed freely by the community or by a single developer for specific project needs.
 
